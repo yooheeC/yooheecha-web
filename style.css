@@ -1,0 +1,284 @@
+@import "variables.css";
+@import "style-mobile.css";
+@import "staple.css";
+@font-face {
+  font-family: univers;
+  src: url(UniversLTPro-55Roman.otf);
+}
+
+
+body{
+  /* background-color: var(--maincolor); */
+  background-color: gainsboro;
+}
+
+.start-con {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh; /* Set appropriate height */
+    background-size: cover; /* Ensure the image covers the div */
+    background-position: center;
+    transition: background-image 0s; /* Instant change, no transition */
+}
+
+.start-con img {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.container-whole {
+  transform: translateY(90vh);
+  width: 100vw;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: gainsboro;
+}
+
+section {
+  /* width: 80%; */
+  margin :0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: var(--margin);
+  padding-right: var(--margin);
+}
+
+/* section:nth-child(2) {
+  padding-top: 100px;
+} */
+
+
+/* section:nth-child(even) {
+  background-color: rgb(220, 220, 220);
+}
+
+section:nth-child(odd) {
+  background-color: var(--maincolor);
+} */
+
+section a {
+  text-decoration: underline;
+}
+
+
+.r-1 {
+  width: 100%;
+  /* background-color: navy; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.c-1 {
+  margin: 5px 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.c-1 .landscape {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+
+.r-2 {
+  width: 100%;
+  display: flex;
+}
+
+.c-2 {
+  width: 50%;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.c-2 .portrait {
+  width: 100%;
+}
+
+.c-2 .landscape {
+  width: 100%;
+}
+
+.r-3 {
+  width: 100%;
+  /* background-color: fuchsia; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-3 {
+  width: 33%;
+  /* background-color: yellow; */
+  margin: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.c-3 .portrait{
+  width: 100%;
+}
+
+
+.r-3-2 {
+  width: 100%;
+  /* background-color: fuchsia; */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.c-3-2 {
+  width: 66%;
+  /* background-color: yellow; */
+  margin: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.c-3-2 img {
+  width: 100%;
+}
+
+
+.txt {
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.caption {  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.caption div {
+  width: 33%;
+  padding-left: var(--gridpadding);
+}
+
+.caption div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.des {
+  padding-left: var(--gridpadding);
+  color: var(--red);
+}
+
+.des a {
+  color: var(--red);
+}
+
+.caption:hover {
+  text-decoration: underline;
+}
+
+.dis div {
+  width: 1fr;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.carousel-item {
+  width: 100%;
+  transition: 0s;
+  overflow-y: hidden;
+} 
+
+.carousel-item .portrait {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.carousel-item .landscape {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#blending {
+  mix-blend-mode: multiply;
+}
+
+.carousel-index {
+  padding-left: 30px;
+  color: var(--red);
+}
+
+.portrait img{
+  height: 100%;
+}
+
+.carousel:hover {
+  cursor: grab;
+}
+
+.carousel-control-next:hover {
+  cursor: e-resize;
+}
+
+.carousel-control-prev:hover {
+  cursor: w-resize;
+}
+
+.carousel-control-next {
+  /* background-color: red; */
+  width: 50%;
+  height: 100%;
+  cursor: e-resize;
+}
+
+.carousel-control-prev {
+  width: 50%;
+  height: 100%;
+  cursor: w-resize;
+}
+
+
+  .carousel-control-prev-icon {
+    opacity: 0;
+  }
+
+  .carousel-control-next-icon {
+    opacity: 0;
+  }
+
+  .show {
+    display: none;
+  }
+    
+
+  
