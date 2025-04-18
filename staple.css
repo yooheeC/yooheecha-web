@@ -38,24 +38,6 @@
     color: red;
   }
   
-  .topbar-category {
-    font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: end;
-    width: 100%;
-    height: var(--stackmargin);
-    position: sticky;
-    top: var(--stackmargin);
-    padding-left: var(--margin);
-    padding-right: var(--margin);
-    z-index: 200;
-    color: var(--red);
-    font-size: var(--medtype);
-  }
-
-  
   .carousel {
     display: flex;
     flex-wrap: wrap;
@@ -69,8 +51,7 @@
     overflow-y: hidden;
     } 
 
-button {
-    font-weight: bolder;
+  button {
     /* color: var(--red); */
     text-decoration: none;
     padding-top: 5px;
