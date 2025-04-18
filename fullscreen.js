@@ -1,6 +1,6 @@
 const overlay = document.querySelector('.overlay');
 const overlayImage = document.querySelector('.overlay-image');
-const imageContainers = document.querySelectorAll('.image-container');
+const imageContainers = document.querySelectorAll('section');
 
 let currentImageIndex = 0;
 let currentContainerIndex = 0;

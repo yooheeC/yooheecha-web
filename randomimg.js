@@ -1,13 +1,12 @@
-const images = [ "starting/0.png", "starting/01.jpg", 
-  "starting/1.jpeg","starting/1.jpg", "starting/1.png", "starting/2.jpg", "starting/3.jpg", "starting/4.jpeg", "starting/4.png", "starting/04.png", "starting/5.png",
-  "starting/6.jpg", "starting/7.png", "starting/8.png", "starting/9.png",
-  "starting/10.jpeg", "starting/11.jpeg","starting/12.png", "starting/14.png", "starting/15.png", "starting/16.png",
-  "starting/18.png","starting/19.png", "starting/20.png", "starting/22.jpg", "starting/23.png", "starting/24.png", "starting/25.png",
-  "starting/26.jpg", "starting/27.jpg","starting/28.jpg",
-  "starting/29.jpg","starting/30.jpeg", "starting/31.jpg",
-  "starting/32.jpg","starting/33.png","starting/34.png","starting/35.png", "starting/36.png", "starting/37.png",
-  "starting/38.png","starting/39.png","starting/40.png", "starting/41.JPG", "starting/42.jpg", "starting/43.png",
-  "starting/44.png", "starting/45.png", "starting/46.png", "starting/47.png", "starting/48.png", "starting/49.jpg", "starting/50.jpg"
+const images = [ "starting/01.jpg", "starting/02.jpg", 
+  "starting/03.png","starting/04.png", "starting/05.JPG", "starting/06.png", "starting/07.png", "starting/08.png", "starting/09.jpg", "starting/10.png", "starting/11.png",
+  "starting/12.png", "starting/13.jpg", "starting/14.png", "starting/15.JPG",
+  "starting/16.png", "starting/17.png","starting/18.png", "starting/19.png", "starting/20.png", "starting/21.png",
+  "starting/22.png","starting/23.jpg", "starting/24.JPG", "starting/25.png", "starting/26.png", "starting/27.png", "starting/28.png",
+  "starting/29.JPG", "starting/30.jpg","starting/31.jpg",
+  "starting/32.jpg","starting/33.jpg", "starting/34.jpg",
+  "starting/35.jpg","starting/36.jpg","starting/34.png","starting/37.jpg", "starting/38.jpg", "starting/39.jpg",
+  "starting/40.jpg","starting/41.jpg","starting/42.png", "starting/43.JPG", "starting/44.jpg", "starting/45.jpg","starting/46.png","starting/47.jpg"
 ];
 
 let currentIndex = 0;

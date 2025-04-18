@@ -16,11 +16,6 @@
     text-underline-offset: 4px;
   }
 
-  img {
-    cursor: pointer;
-  }
-
-
   .topbar {
     font-size: var(--medtype);
     font-weight: bold;
