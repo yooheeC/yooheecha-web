@@ -56,6 +56,18 @@
   }
 
   
+  .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    }
+
+    .carousel-item {
+    width: 100%;
+    transition: 0s;
+    overflow-y: hidden;
+    } 
 
 button {
     font-weight: bolder;
@@ -103,6 +115,15 @@ button {
     text-decoration: underline;
   }
 
+  body section .txt {
+    cursor: pointer;
+  }
+
+
+  body section .txt .des a {
+    text-decoration: underline; 
+  }
+
 
   #all-btn {
     text-decoration: underline;
@@ -120,7 +141,7 @@ button {
   
   #about {
     left: var(--margin);
-    top: var(--stackmargin);
+    top: var(--margin);
     position: fixed;
     z-index: 300;
     padding: var(--gridpadding);
@@ -147,6 +168,35 @@ button {
     width: 0;
   }
 
-#more {
-  color: var(--red);
-}
+
+  .carousel-control-next:hover {
+    cursor: e-resize;
+    }
+
+    .carousel-control-prev:hover {
+    cursor: w-resize;
+    }
+
+    .carousel-control-next {
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+    z-index: 100;
+    cursor: e-resize;
+    }
+
+    .carousel-control-prev {
+    width: 50%;
+    height: 100%;
+    z-index: 100;
+    cursor: w-resize;
+    }
+
+
+    .carousel-control-prev-icon {
+      display: none;
+    }
+
+    .carousel-control-next-icon {
+      display: none;
+    }

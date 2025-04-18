@@ -1,109 +1,490 @@
-@media only screen and (max-width: 1000px) {
-    body {
-      background-color: black;
-    }
+@media (max-width: 640px) {
 
-    body .topbar {
-        width: 100vw;
-        padding: 0;
-        display: flex;
-    }
-
-    body .topbar button {
-        width: 150px;
-    }
-
-    body .topbar-category {
-        width: 100vw;
-        /* background-color: yellow; */
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-    }
-
-    body .topbar-category button{
-        width: 100px;
-    }
-
-    body .start-con {
-      position: sticky;
+  body .topbar {
       width: 100vw;
-      height: 30vh;
-      top: 0;
-      z-index: -1;
-      background-image: url("starting/0.JPG");
-      background-size: cover;
-      background-position: center;
-    }
-
-    body section {
-    padding: 0;
-      width: 100%;
-      display: block;
-      flex-wrap: wrap;
-    }
-
-    section .r-3-2 {
-      width: 100%;
+      padding-left: var(--marginmobile);
       display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    .r-3-2 .c-3-2 {
-      margin: 5px 5px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-    }
-
-    .r-3-2 .c-3 {
-      margin: 5px 5px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-    }
-  
-    section .r-2 {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-      
-    .r-2 .c-1 {
-      margin: 5px 5px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-    }
-      
-    section .r-2 .c-2 {
-      width: 100%;
-      display: block;
-    }
-  
-    section .r-3 {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-      
-    .r-2 .c-3 {
-      margin: 5px 5px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-    }
-      
-    section .r-3 .c-3 {
-      width: 100%;
-      display: block;
-    }
-  
   }
+
+  body .topbar button {
+      width: 150px;
+  }
+
+  body .topbar-category button{
+      width: 100px;
+  }
+
+  body #about {
+    left: var(--marginmobile);
+  }
+
+
+  body .start-con {
+    position: sticky;
+    width: 100vw;
+    height: 30vh;
+    top: 0;
+    z-index: -1;
+    background-image: url("starting/0.JPG");
+    background-size: cover;
+    background-position: center;
+  }
+
+  body section {
+    width: 100vw;
+    display: block;
+    flex-wrap: wrap;
+    padding-left: var(--marginmobile);
+    padding-right: var(--marginmobile);
+    padding-top: var(--marginmobile);
+    padding-bottom: 100px;
+    background-color: var(--maincolor);
+  }
+
+  section .r-3-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .r-3-2 .c-3-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: var(--marginmobile);
+  }
+
+  .r-3-2 .c-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    
+  .r-2 .c-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+    
+  section .r-2 .c-2 {
+    width: 100%;
+    display: block;
+  }
+
+  section .r-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    
+  .r-2 .c-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+    
+  section .r-3 .c-3 {
+    width: 100%;
+    display: block;
+  }
+
+  section .r-3 .c-3 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-2 .c-2 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-1 .c-1 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-3-2 .c-3-2 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-3-2 .c-3 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  body .container-whole {
+    transform: translateY(0vh);
+  }
+
+  .caption {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  .caption div {
+    width: 33%;
+  }
+
+  .caption div:first-child {
+    padding-right: 10px;
+  }
+
+  .caption div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  body .topbar {
+      width: 100vw;
+      padding-left: var(--marginmobile);
+      display: flex;
+  }
+
+  body .topbar button {
+      width: 150px;
+  }
+
+  body .topbar-category button{
+      width: 100px;
+  }
+
+  body #about {
+    left: var(--marginmobile);
+  }
+
+
+  body .start-con {
+    position: sticky;
+    width: 100vw;
+    height: 30vh;
+    top: 0;
+    z-index: -1;
+    background-image: url("starting/0.JPG");
+    background-size: cover;
+    background-position: center;
+  }
+
+  body section {
+    width: 100vw;
+    display: block;
+    flex-wrap: wrap;
+    padding-left: var(--marginmobile);
+    padding-right: var(--marginmobile);
+    padding-top: var(--marginmobile);
+    padding-bottom: 100px;
+    background-color: var(--maincolor);
+  }
+
+  section .r-3-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .r-3-2 .c-3-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: var(--marginmobile);
+  }
+
+  .r-3-2 .c-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    
+  .r-2 .c-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+    
+  section .r-2 .c-2 {
+    width: 100%;
+    display: block;
+  }
+
+  section .r-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    
+  .r-2 .c-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+    
+  section .r-3 .c-3 {
+    width: 100%;
+    display: block;
+  }
+
+  section .r-3 .c-3 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-2 .c-2 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-1 .c-1 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-3-2 .c-3-2 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-3-2 .c-3 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  body .container-whole {
+    transform: translateY(0vh);
+  }
+
+  .caption {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  .caption div {
+    width: 33%;
+  }
+
+  .caption div:first-child {
+    padding-right: 10px;
+  }
+
+  .caption div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+}
+
+
+
+@media (max-width: 1024px) {
+
+  body .topbar {
+      width: 100vw;
+      padding-left: var(--marginmobile);
+      display: flex;
+  }
+
+  body .topbar button {
+      width: 150px;
+  }
+
+  body .topbar-category button{
+      width: 100px;
+  }
+
+  body #about {
+    left: var(--marginmobile);
+  }
+
+
+  body .start-con {
+    position: sticky;
+    width: 100vw;
+    height: 40vh;
+    top: 0;
+    z-index: -1;
+    background-image: url("starting/0.JPG");
+    background-size: cover;
+    background-position: center;
+  }
+
+  body section {
+    width: 100vw;
+    display: block;
+    flex-wrap: wrap;
+    padding-left: var(--marginmobile);
+    padding-right: var(--marginmobile);
+    padding-top: var(--marginmobile);
+    padding-bottom: 100px;
+    background-color: var(--maincolor);
+  }
+
+  section .r-3-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .r-3-2 .c-3-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: var(--marginmobile);
+  }
+
+  .r-3-2 .c-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    
+  .r-2 .c-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+    
+  section .r-2 .c-2 {
+    width: 100%;
+    display: block;
+  }
+
+  section .r-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    
+  .r-2 .c-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+    
+  section .r-3 .c-3 {
+    width: 100%;
+    display: block;
+  }
+
+  section .r-3 .c-3 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-2 .c-2 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-1 .c-1 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-3-2 .c-3-2 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  section .r-3-2 .c-3 img {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--marginmobile);
+  }
+
+  body .container-whole {
+    transform: translateY(0vh);
+  }
+
+  .caption {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  .caption div {
+    width: 33%;
+  }
+
+  .caption div:first-child {
+    padding-right: 10px;
+  }
+
+  .caption div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+}

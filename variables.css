@@ -1,11 +1,12 @@
 :root {
-    --maincolor: rgb(159, 159, 159);
+    --maincolor: gainsboro;
     --seccolor: rgb(240, 240, 0);
     --red: red;
     --smtype: 0.99rem;
     --medtype: 0.99rem;
     --lgtype: 0.99rem;
     --margin: 12vw;
+    --marginmobile: 5vw;
     --stackmargin: 30px;
     --bold: 600;
     --mobile-margin: 0;
@@ -14,4 +15,5 @@
     --gridpadding: 10px;
     --button: 120px;
     --radius: 0px;
+    --violet: #c000ff;
 }
