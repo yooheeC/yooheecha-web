@@ -22,7 +22,7 @@
   body .start-con {
     position: sticky;
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     top: 0;
     z-index: -1;
     background-image: url("starting/0.JPG");
@@ -185,7 +185,7 @@
   body .start-con {
     position: sticky;
     width: 100vw;
-    height: 50vh;
+    height: 25vh;
     top: 0;
     z-index: -1;
     background-image: url("starting/0.JPG");
@@ -477,7 +477,7 @@
 
 
     .txt {
-    padding: 5px 5px 5px 5px;
+    padding: 3px 5px 5px 5px;
     display: flex;
     flex-direction: column;
     width: 100%;
