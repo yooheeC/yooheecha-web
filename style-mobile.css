@@ -22,7 +22,7 @@
   body .start-con {
     position: sticky;
     width: 100vw;
-    height: 20vh;
+    height: 30vh;
     top: 0;
     z-index: -1;
     background-image: url("starting/0.JPG");
@@ -185,7 +185,7 @@
   body .start-con {
     position: sticky;
     width: 100vw;
-    height: 25vh;
+    height: 30vh;
     top: 0;
     z-index: -1;
     background-image: url("starting/0.JPG");
@@ -337,7 +337,7 @@
       top: 0;
       left: 0;
       width: 100vw;
-      height: 50vh; /* Set appropriate height */
+      height: 35vh; /* Set appropriate height */
       background-size: cover; /* Ensure the image covers the div */
       background-position: center;
       transition: background-image 0s; /* Instant change, no transition */
