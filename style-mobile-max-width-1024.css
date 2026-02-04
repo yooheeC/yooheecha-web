@@ -1,0 +1,390 @@
+@media (max-width: 1024px) {
+  body{
+    /* background-color: var(--maincolor); */
+    background-color: gainsboro;
+    }
+
+
+.scroll-wrapper {
+  height: 100vh;
+  height: 100dvh;
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+}
+
+.scroll-section{
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  display: block;
+}
+
+.list-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-link .link-block {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-link .link-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+    section {
+    /* width: 80%; */
+    z-index: 150;
+    margin :0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+    padding-top: var(--margin);
+    padding-left: var(--margin);
+    padding-right: var(--margin);
+    background-color: var(--maincolor);
+    }
+
+    body header #about {
+      position: fixed;
+      z-index: 300;
+      top: 50px;
+      left: var(--marginmobile);
+      font-size: var(--medtype);
+      color: var(--red);
+    }
+
+
+  .topbar {
+    font-size: var(--medtype);
+    z-index: 298;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    align-items: center;
+      padding-top: 10px;
+    padding-left: var(--margin);
+    padding-right: var(--margin);
+    color: red;
+  }
+
+
+  body header #about {
+    position: fixed;
+    z-index: 300;
+    top: 50px;
+    left: var(--margin);
+    font-size: var(--medtype);
+    color: var(--red);
+  }
+
+
+
+  .topbar button {
+    width: 33%;
+    text-align: left;
+  }
+
+  #name a {
+    padding: 0;
+    color: var(--red);
+  }
+
+  #aboutbtn, #indexbtn  {
+    color: var(--red);
+  }
+
+  button:hover {
+    text-decoration: underline;
+  }
+
+    section a {
+    text-decoration: underline;
+    }
+
+
+    .r-1 {
+    width: 100%;
+    /* background-color: navy; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .c-1 {
+    margin: 5px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .c-1 .landscape {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+
+    .r-2 {
+    width: 100%;
+    display: flex;
+    }
+
+    .c-2 {
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: baseline;
+    }
+
+    .c-2 .portrait {
+    width: 100%;
+    }
+
+    .c-2 .landscape {
+    width: 100%;
+    }
+
+    .r-3 {
+    width: 100%;
+    /* background-color: fuchsia; */
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .c-3 {
+    width: 33%;
+    /* background-color: yellow; */
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .c-3 .portrait{
+    width: 100%;
+    }
+
+
+    .r-3-2 {
+    width: 100%;
+    /* background-color: fuchsia; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    }
+
+    .c-3-2 {
+    width: 66%;
+    /* background-color: yellow; */
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    .c-3-2 img {
+    width: 100%;
+    }
+
+
+    .txt {
+    padding: 3px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+
+    .caption {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .caption div:first-child {
+      margin-top: -20px;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  
+    .caption div:nth-child(2) {
+      width: 50%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .caption div:last-child {
+      margin: 0;
+      padding: 0;
+      width: 50%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  
+
+    .des {
+    color: var(--red);
+    }
+
+    .des a {
+    color: var(--red);
+    }
+
+    .caption:hover {
+    text-decoration: underline;
+    }
+
+    .dis div {
+    width: 1fr;
+    }
+
+    .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    }
+
+    .carousel-item {
+    width: 100%;
+    height: 100%;
+    transition: 0s;
+    overflow-y: hidden;
+    } 
+
+    .carousel-item .portrait {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .carousel-item .landscape {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+  .content-container {
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+    .carousel-index {
+    padding-left: 30px;
+    color: var(--red);
+    }
+
+    .portrait img{
+    height: 100%;
+    }
+
+    .carousel-control-next:hover {
+    cursor: e-resize;
+    }
+
+    .carousel-control-prev:hover {
+    cursor: w-resize;
+    }
+
+    .carousel-control-next {
+    /* background-color: red; */
+    width: 50%;
+    /* height: 100%; */
+    z-index: 100;
+    cursor: e-resize;
+    }
+
+    .carousel-control-prev {
+    width: 50%;
+    /* height: 100%; */
+    z-index: 100;
+    cursor: w-resize;
+    }
+
+
+    .carousel-control-prev-icon {
+      display: none;
+    }
+
+    .carousel-control-next-icon {
+      display: none;
+    }
+
+    .show {
+      display: none;
+    }
+
+    body #fullscreencarousel {
+      z-index: 100;
+      position: relative;
+    }
+
+
+ body #fullscreencarousel .carousel-inner {
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+}
+
+body #fullscreencarousel .carousel-index {
+  position: absolute;
+  top: 10px;
+  right: var(--margin);
+  z-index: 300;
+}
+
+body #fullscreencarousel .carousel-inner .carousel-item .landscape {
+  width: 100%;
+  align-items: flex-start;
+  display: flex;
+  aspect-ratio: auto;
+  overflow-y: hidden;
+}
+
+body #fullscreencarousel .carousel-inner .carousel-item .landscape img{
+  width: 100vw;
+  height: 100%;
+}
+
+
+body .container-whole {
+  width: 100%;
+  display: block;
+  z-index: 0;
+}
+
+
+}

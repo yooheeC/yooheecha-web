@@ -1,0 +1,43 @@
+# 💾 Adobe formats
+*.psd
+*.ai
+*.indd
+*.idml
+*.inx
+
+# 🖼️ Image formats (무겁거나 원본 파일일 경우)
+*.tif
+*.tiff
+*.jpeg
+*.heic
+*.raw
+*.xcf
+
+# 📝 기타 디자인 파일
+*.sketch
+*.fig
+*.svg
+
+# 💻 macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ⛓️ Temporary / cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+
+# 🌐 Web export (만약 있는 경우)
+_export/
+build/
+dist/
+
+# 🙅‍♀️ 안 쓰는 압축물
+*.zip
+*.tar.gz
+*.rar
+*.7z

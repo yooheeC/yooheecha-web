@@ -1,0 +1,435 @@
+@import "variables.css";
+@import "staple.css";
+@import "style-mobile-max-width-768.css";
+@import "style-mobile-max-width-1024.css";
+@import "style-mobile-max-width-640.css";
+@font-face {
+  font-family: univers;
+  src: url(UniversLTPro-55Roman.otf);
+}
+
+@media (min-width: 1025px) {
+  body{
+  /* background-color: var(--maincolor); */
+  background-color: gainsboro;
+  }
+
+
+/* .overview-wrapper {
+  display: none;
+  flex-wrap: wrap;
+  width: 100vw;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
+}
+
+.overview-section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  scroll-snap-align: start;
+}
+
+.overview-link {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.overview-link .overview-block {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview-link .overview-block img {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+  cursor: pointer;
+} */
+
+
+  .topbar {
+    font-size: var(--medtype);
+    z-index: 298;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: var(--margin);
+    padding-right: var(--margin);
+    color: red;
+  }
+
+
+  body header #about {
+    position: fixed;
+    z-index: 300;
+    top: 50px;
+    left: var(--margin);
+    font-size: var(--medtype);
+    color: var(--red);
+  }
+
+
+
+  .topbar button {
+    width: 33%;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  #name a {
+    padding: 0;
+    color: var(--red);
+  }
+
+  #aboutbtn, #indexbtn  {
+    color: var(--red);
+  }
+
+  button:hover {
+    text-decoration: underline;
+  }
+  
+   header #about {
+    background-color: var(--maincolor);
+    padding-left: 5px;
+    position: fixed;
+    z-index: 300;
+    top: 50px;
+    left: var(--margin);
+    font-size: var(--medtype);
+    color: var(--red);
+  }
+    
+.scroll-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-section{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scroll-section .list-link .link-block {
+  scroll-snap-align: start;
+}
+
+.list-link {
+  width: 100%;
+}
+
+.list-link .carousel-block {
+  scroll-snap-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.list-link .link-block {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-link .link-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.carousel-block {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.shoot-block {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.list-link .carousel-block {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: black;
+}
+
+.list-link .carousel-block img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+
+
+
+
+    section {
+    /* width: 80%; */
+    margin :0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: var(--margin);
+    padding-right: var(--margin);
+    }
+
+    section .txt {
+      top:0;
+      left: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    section a {
+    text-decoration: underline;
+    }
+
+
+    .r-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .c-1 {
+    margin: 5px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .c-1 .landscape {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+
+    .r-2 {
+    width: 100%;
+    display: flex;
+    }
+
+    .c-2 {
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: baseline;
+    }
+
+    .c-2 .portrait {
+    width: 100%;
+    }
+
+    .c-2 .landscape {
+    width: 100%;
+
+    }
+
+    .r-3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    }
+
+    .c-3 {
+    width: 33%;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    }
+
+    .c-3 .portrait{
+    width: 100%;
+
+    }
+
+
+    .r-3-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    }
+
+    .c-3-2 {
+    width: 66%;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    .c-3-2 img {
+    width: 100%;
+    }
+
+
+  .txt {
+    padding: 5px 5px 5px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    background-color: var(--maincolor);
+    }
+
+  .caption {  
+    padding-left: var(--margin);
+    padding-right: var(--margin);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    cursor: pointer;
+    }
+
+    .caption div {
+    width: 33%;
+    }
+
+    .caption div:last-child {
+    display: flex;
+    justify-content: space-between;
+    }
+
+
+    .des {
+    padding-top: 10px;
+    padding-left: var(--margin);
+    padding-right: var(--margin);
+    color: var(--red);
+    }
+
+    .des a {
+    color: var(--red);
+    }
+
+    .caption:hover {
+    text-decoration: underline;
+    }
+
+    .caption:hover .title {
+      font-style: oblique;
+    }
+
+    .dis div {
+    width: 1fr;
+    }
+
+    .content-container{
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    }
+
+    .carousel .carousel-item {
+    width: 100%;
+    height: 100%;
+    transition: 0s;
+    overflow-y: hidden;
+    } 
+
+    .carousel-item .portrait {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .carousel-item .landscape {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .carousel-index {
+    padding-left: 30px;
+    color: var(--red);
+    }
+
+    .portrait img{
+    height: 100%;
+    }
+
+    .show {
+      display: none;
+    }
+
+    }
