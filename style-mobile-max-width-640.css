@@ -62,12 +62,6 @@ html body header #about {
 }
 
 
-    
-  .popup .txt {
-    display: block;
-    position: relative;
-    bottom: 0;
-  }
 
   body .scroll-wrapper {
     overflow-y: visible;
@@ -87,6 +81,12 @@ html body header #about {
   .list-link .carousel-block img {
     width: 100vw;
     object-fit: cover;
+  }
+
+  .carousel-item {
+  backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
   }
   
 }

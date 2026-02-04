@@ -1,9 +1,15 @@
 @media (max-width: 1024px) {
-  body{
-    /* background-color: var(--maincolor); */
-    background-color: gainsboro;
-    }
+body{
+  /* background-color: var(--maincolor); */
+  background-color: gainsboro;
+  }
 
+  
+.carousel-item {
+  backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
 
 .scroll-wrapper {
   height: 100vh;
@@ -42,43 +48,43 @@
   object-fit: cover;
 }
 
-    body header #about {
-      position: fixed;
-      z-index: 300;
-      top: 50px;
-      left: var(--marginmobile);
-      font-size: var(--medtype);
-      color: var(--red);
-    }
+body header #about {
+  position: fixed;
+  z-index: 300;
+  top: 50px;
+  left: var(--marginmobile);
+  font-size: var(--medtype);
+  color: var(--red);
+}
 
 
-  .topbar {
-    font-size: var(--medtype);
-    z-index: 298;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    justify-content: start;
-    flex-wrap: nowrap;
-    align-items: center;
-      padding-top: 10px;
-    padding-left: var(--margin);
-    padding-right: var(--margin);
-    color: red;
-  }
+.topbar {
+  font-size: var(--medtype);
+  z-index: 298;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: start;
+  flex-wrap: nowrap;
+  align-items: center;
+    padding-top: 10px;
+  padding-left: var(--margin);
+  padding-right: var(--margin);
+  color: red;
+}
 
 
-  body header #about {
-    position: fixed;
-    z-index: 300;
-    top: 50px;
-    left: var(--margin);
-    font-size: var(--medtype);
-    color: var(--red);
-  }
+body header #about {
+  position: fixed;
+  z-index: 300;
+  top: 50px;
+  left: var(--margin);
+  font-size: var(--medtype);
+  color: var(--red);
+}
 
 
 
