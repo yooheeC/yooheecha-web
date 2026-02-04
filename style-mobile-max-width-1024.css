@@ -1,8 +1,7 @@
 @media (max-width: 1024px) {
 body{
   /* background-color: var(--maincolor); */
-  background-color: gainsboro;
-  }
+  background-color: black
 
   
 .carousel-item {
@@ -188,6 +187,3 @@ body header #about {
     .show {
       display: none;
     }
-
-
-}

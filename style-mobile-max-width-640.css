@@ -73,13 +73,16 @@ html body header #about {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
+    height: 30vh;
     object-fit: cover;
     justify-content: center;
     align-items: center;
+    background-color: black;
   }
   
   .list-link .carousel-block img {
     width: 100vw;
+    height: 30vh;
     object-fit: cover;
   }
 
@@ -89,7 +92,4 @@ html body header #about {
   -webkit-perspective: 1000px;
   }
   
-}
-
-@media (max-width: 640px) and (orientation: landscape)  {
 }

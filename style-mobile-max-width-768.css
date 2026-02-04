@@ -5,6 +5,7 @@
       width: 100vw;
       padding-left: var(--marginmobile);
       display: flex;
+      background-color: black;
   }
 
   body .topbar button {
@@ -69,3 +70,4 @@
     object-fit:cover; 
     z-index:-1;    
   }
+}
