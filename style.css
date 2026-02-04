@@ -183,5 +183,6 @@
     .show {
       display: none;
     }
-
+    .carousel-item img {
+      aspect-ratio: 16 / 9;
     }
