@@ -145,6 +145,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: end;
+    background-color: #000;
     }
 
     .carousel .carousel-item {
@@ -152,6 +153,9 @@
     height: 100%;
     transition: 0s;
     overflow-y: hidden;
+    backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
     } 
 
     .carousel-item .portrait {
