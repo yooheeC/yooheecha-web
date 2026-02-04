@@ -2,7 +2,7 @@
 body{
   /* background-color: var(--maincolor); */
   background-color: black
-
+}
   
 .carousel-item {
   backface-visibility: hidden;
