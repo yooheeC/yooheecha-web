@@ -1,22 +1,13 @@
-#aboutbg,.popup .closebtn{
+#aboutbg .closebtn{
     z-index:300;
-    position:fixed
-}
-#aboutbg,.popup{
+    position:fixed;
     width:100vw;
     height:100vh;
     background-color:var(--maincolor);
-    position:fixed
+    position:fixed;
 }
-#aboutbg,.container-whole,.popup{
-    background-color:var(--maincolor)
-}
-*,a{
-    text-decoration:none
-}
-.popup,.popup .prevbtn{
-    left:0
-}
+
+
 *{
     background:none;
     border:none;
@@ -29,20 +20,10 @@
     padding:0;
     text-align:left;
     text-indent:0;
-    text-underline-offset:4px
+    text-underline-offset:4px;
 }
-#name{
-    font-weight:700
-}
-#aboutbg{
-    overflow:hidden
-}
-.popup{
-    top:0;
-    overflow-y:scroll;
-    display:none;
-    z-index:1000
-}
+
+
 .carousel{
     cursor:w-resize;
     display:flex;
@@ -55,25 +36,30 @@
     transition:none;
     overflow-y:hidden
 }
+
 body section .txt{
     cursor:pointer;
 }
+
 #about a,#aboutbtn:hover,#all-btn,a:hover,body section .txt .des a{
     text-decoration:underline
 }
+
 a{
     color:#000
 }
 .carousel-control-next-icon,.carousel-control-prev-icon,.show{
     display:none
 }
+
 #about a,button{
-    color:var(--red);
     height:0
 }
+
 #about #finishbtn{
     padding:0;
-    width:0
+    width:0;
+    color: black;
 }
 .carousel-control-next:hover{
     cursor:e-resize

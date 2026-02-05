@@ -13,66 +13,66 @@
 @media (min-width: 1025px) {
   body{
   background-color: black;
-  font-size: smaller;
   }
 
 
-  .topbar {
-    z-index: 298;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    justify-content: start;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding-top: 10px;
-    padding-left: var(--margin);
-    padding-right: var(--margin);
-    color: red;
-  }
+.topbar {
+  z-index: 298;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: start;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: var(--margin);
+  padding-right: var(--margin);
+}
 
 
   body header #about {
-    position: fixed;
-    z-index: 300;
-    top: 50px;
-    left: var(--margin);
-    color: var(--red);
+  position: fixed;
+  z-index: 300;
+  top: 50px;
+  left: var(--margin);
+  color: black;
+  font-size: 1rem;
+  background-color: var(--maincolor);
+  padding-left: 5px;
+  position: fixed;
+  z-index: 300;
+  top: 50px;
+  left: var(--margin);
+  }
+
+  a {
+    text-decoration: none;
   }
 
 
-
-  .topbar button {
-    width: 33%;
-    text-align: left;
-    margin-left: 5px;
-  }
+.topbar button {
+  width: 33%;
+  text-align: left;
+  margin-left: 5px;
+}
 
   #name a {
     padding: 0;
-    color: var(--red);
+    color: white
   }
 
   #aboutbtn, #indexbtn  {
-    color: var(--red);
+    color: white
   }
 
   button:hover {
     text-decoration: underline;
   }
   
-   header #about {
-    background-color: var(--maincolor);
-    padding-left: 5px;
-    position: fixed;
-    z-index: 300;
-    top: 50px;
-    left: var(--margin);
-    color: var(--red);
-  }
     
 .scroll-wrapper {
   display: flex;
@@ -84,48 +84,6 @@
   scroll-snap-type: y proximity;
   scroll-snap-type: y mandatory;
 }
-
-.scroll-section{
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.list-link .link-block {
-  scroll-snap-align: start;
-  position: relative;
-}
-
-
-.link-block img {
-  height: 50vh;
-}
-
-.list-link {
-  width: 100%;
-}
-
-.list-link .carousel-block {
-  scroll-snap-align: start;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  height: 100vh;
-  object-fit: contain;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.list-link .link-block {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 
 
 .carousel-block {
@@ -151,42 +109,40 @@
 
 }
 
-    .carousel {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: end;
-    }
+.carousel {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: end;
+}
 
-    .carousel .carousel-item {
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    transition: 0s;
-    overflow-y: hidden;
+.carousel .carousel-item {
+width: 100vw;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: hidden;
+transition: 0s;
+overflow-y: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    } 
+.carousel-item .landscape {
+width: 100%;
+height: 100%;
+object-fit: cover; 
+object-position: center;
+}
 
-    .carousel-item .landscape {
-    width: 100%;
-    height: 100%;
-
-  object-fit: cover; 
-  object-position: center;
-    }
-
-    .carousel-index {
-    padding-left: 30px;
-    color: var(--red);
-    }
+.carousel-index {
+padding-left: 30px;
+color: var(--red);
+}
 
 
-    .show {
-      display: none;
-    }
+.show {
+  display: none;
+}
 
-    }
+}

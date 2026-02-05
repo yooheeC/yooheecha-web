@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
 body{
-  /* background-color: var(--maincolor); */
-  background-color: black
+  background-color: black;
+  color: white;
 }
   
 .carousel-item {
@@ -17,14 +17,8 @@ body{
   scroll-snap-type: y proximity;
 }
 
-.scroll-section{
-  width: 100%;
-  height: 100%;
-  scroll-snap-align: start;
-  display: block;
-}
-
 body header #about {
+  color: white;
   position: fixed;
   z-index: 300;
   top: 50px;
@@ -71,12 +65,8 @@ body header #about {
 
   #name a {
     padding: 0;
-    color: var(--red);
   }
 
-  #aboutbtn, #indexbtn  {
-    color: var(--red);
-  }
 
   button:hover {
     text-decoration: underline;

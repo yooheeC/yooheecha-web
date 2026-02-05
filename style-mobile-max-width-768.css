@@ -10,6 +10,7 @@
   body .topbar button {
       width: 150px;
       margin-left: 5px;
+      color: white;
   }
 
   body .topbar-category button{
@@ -21,10 +22,27 @@
     position: fixed;
     z-index: 300;
     left: var(--marginmobile);
-    font-size: var(--medtype);
-    color: var(--red);
     padding-left: 5px;
+    color: white;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .scroll-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
+  }
+  
 
     .carousel-block {
     scroll-snap-align: start;
