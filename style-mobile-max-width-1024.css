@@ -3,7 +3,11 @@ body{
   background-color: black;
   color: white;
 }
-  
+
+#finishbtn {
+  color: white;
+}
+
 .carousel-item {
   backface-visibility: hidden;
   perspective: 1000px;
@@ -15,6 +19,7 @@ body{
   height: 100dvh;
   overflow-y: scroll;
   scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
 
 body header #about {

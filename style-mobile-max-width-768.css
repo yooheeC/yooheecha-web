@@ -31,6 +31,10 @@
     text-decoration: none;
   }
 
+  #finishbtn {
+    color: white;
+  }
+
 
   .scroll-wrapper {
     display: flex;
@@ -49,7 +53,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     object-fit: contain;
     justify-content: center;
     align-items: center;
