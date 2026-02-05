@@ -2,7 +2,9 @@
 @import "staple.css";
 @import "style-mobile-max-width-768.css";
 @import "style-mobile-max-width-1024.css";
-@import "style-mobile-max-width-640.css";
+/* @import "style-mobile-max-width-640.css"; */
+
+
 @font-face {
   font-family: univers;
   src: url(UniversLTPro-55Roman.otf);
@@ -11,10 +13,11 @@
 @media (min-width: 1025px) {
   body{
   background-color: black;
+  font-size: smaller;
   }
 
+
   .topbar {
-    font-size: var(--medtype);
     z-index: 298;
     position: fixed;
     top: 0;
@@ -37,7 +40,6 @@
     z-index: 300;
     top: 50px;
     left: var(--margin);
-    font-size: var(--medtype);
     color: var(--red);
   }
 
@@ -69,7 +71,6 @@
     z-index: 300;
     top: 50px;
     left: var(--margin);
-    font-size: var(--medtype);
     color: var(--red);
   }
     
@@ -90,8 +91,14 @@
   flex-wrap: wrap;
 }
 
-.scroll-section .list-link .link-block {
+.list-link .link-block {
   scroll-snap-align: start;
+  position: relative;
+}
+
+
+.link-block img {
+  height: 50vh;
 }
 
 .list-link {
@@ -104,7 +111,7 @@
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
+  object-fit: contain;
   justify-content: center;
   align-items: center;
 }
@@ -119,12 +126,6 @@
   align-items: center;
 }
 
-.list-link .link-block img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 
 
 .carousel-block {
@@ -135,44 +136,47 @@
   justify-content: center;
   align-items: center;
   scroll-snap-align: start;
-  object-fit: cover;
+  object-fit: contain;
+  position: relative;
 }
 
+.fixed-text-overlay {
+  width: 100vw;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
+  color: white;
 
+}
 
     .carousel {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: end;
-    background-color: #000;
     }
 
     .carousel .carousel-item {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
     transition: 0s;
     overflow-y: hidden;
-    backface-visibility: hidden;
-  perspective: 1000px;
-  -webkit-perspective: 1000px;
-    } 
 
-    .carousel-item .portrait {
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+    } 
 
     .carousel-item .landscape {
     width: 100%;
     height: 100%;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  object-fit: cover; 
+  object-position: center;
     }
 
     .carousel-index {
@@ -180,16 +184,9 @@
     color: var(--red);
     }
 
-    .portrait img{
-    height: 100%;
-    }
 
     .show {
       display: none;
     }
 
-    .carousel-item img {
-      aspect-ratio: 16 / 9;
     }
-
-  }

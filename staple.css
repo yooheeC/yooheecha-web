@@ -22,7 +22,6 @@
     border:none;
     border-spacing:0;
     font-family:univers;
-    font-size:var(--smtype);
     font-weight:400;
     line-height:1.42rem;
     list-style:none;
@@ -56,13 +55,6 @@
     transition:none;
     overflow-y:hidden
 }
-.container-whole{
-    display:block;
-    z-index:10;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center
-}
 body section .txt{
     cursor:pointer;
 }
@@ -70,7 +62,6 @@ body section .txt{
     text-decoration:underline
 }
 a{
-    font-size:var(--medtype);
     color:#000
 }
 .carousel-control-next-icon,.carousel-control-prev-icon,.show{
@@ -114,7 +105,6 @@ a{
     position:fixed;
     z-index:300;
     top:50px;
-    font-size:1rem
 }
 .popup .nextbtn{
     right:0

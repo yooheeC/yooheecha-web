@@ -24,29 +24,6 @@ body{
   display: block;
 }
 
-.list-link {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.list-link .link-block {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.list-link .link-block img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 body header #about {
   position: fixed;
   z-index: 300;
@@ -105,6 +82,28 @@ body header #about {
     text-decoration: underline;
   }
 
+ .carousel-block {
+    scroll-snap-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .fixed-text-overlay {
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+    color: white;
+  
+  }
 
     .carousel {
     display: flex;
@@ -187,3 +186,4 @@ body header #about {
     .show {
       display: none;
     }
+  }
