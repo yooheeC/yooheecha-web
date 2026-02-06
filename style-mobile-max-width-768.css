@@ -5,6 +5,7 @@
       width: 100vw;
       padding-left: var(--marginmobile);
       display: flex;
+      font-size: 15px;
   }
 
   body .topbar button {
@@ -61,6 +62,15 @@
     backface-visibility: hidden;
     perspective: 1000px;
     -webkit-perspective: 1000px;
+  }
+
+  .fixed-text-overlay {
+    font-size: 0.8rem;
+    line-height: 80%;
+    position: absolute;
+    top: 10;
+    width: 100vw;
+    height: 30vh;
   }
 
 }
