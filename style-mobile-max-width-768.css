@@ -85,11 +85,15 @@
     font-size: 0.8rem;
     line-height: 80%;
     position: relative;
-    padding-top: 5px;
+    padding-top: 10px;
     width: 100vw;
     height: 30vh;
     background-color: white;
     color: black;
+  }
+
+  .fixed-text-overlay .carousel-index {
+    margin-bottom: 10px;
   }
 
   .scroll-wrapper .mobile {
