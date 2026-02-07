@@ -9,7 +9,6 @@
       width: 100vw;
       padding-left: var(--marginmobile);
       display: flex;
-      font-size: 15px;
   }
 
   body .topbar button {
@@ -26,10 +25,13 @@
     text-align: left;
     position: fixed;
     z-index: 300;
-    left: var(--marginmobile);
-    padding-left: 5px;
-    color: black;
-    background-color: white;
+    left: 0;
+    padding: 30px;
+    color: white;
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
   }
 
   #about button {
@@ -83,16 +85,20 @@
   }
 
   .fixed-text-overlay {
-    line-height: 80%;
     position: relative;
     padding-top: 15px;
     width: 100vw;
-    height: 30vh;
     color: black;
   }
 
+
+
   .fixed-text-overlay .carousel-index {
     margin-bottom: 15px;
+  }
+
+  .title {
+    margin-bottom: 5px;
   }
 
   .scroll-wrapper .mobile {
