@@ -28,15 +28,16 @@
     z-index: 300;
     left: var(--marginmobile);
     padding-left: 5px;
-    color: white;
+    color: black;
+    background-color: white;
   }
 
   #about button {
-    color: white;
+    color: black;
   }
 
   #about #finishbtn {
-    color: white;
+    color: black;
   }
 
   a {
@@ -84,15 +85,14 @@
   .fixed-text-overlay {
     line-height: 80%;
     position: relative;
-    padding-top: 10px;
+    padding-top: 15px;
     width: 100vw;
     height: 30vh;
-    background-color: white;
     color: black;
   }
 
   .fixed-text-overlay .carousel-index {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .scroll-wrapper .mobile {
