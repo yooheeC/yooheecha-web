@@ -22,6 +22,14 @@ body{
   scroll-snap-type: y mandatory;
 }
 
+.scroll-wrapper .mobile {
+  display: none;
+}
+
+.scroll-wrapper .desktop {
+  display: block;
+}
+
 body header #about {
   color: white;
   position: fixed;
@@ -147,7 +155,6 @@ body header #about {
 
     .carousel-index {
     padding-left: 30px;
-    color: var(--red);
     }
 
     .portrait img{

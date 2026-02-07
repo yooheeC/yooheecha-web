@@ -1,7 +1,7 @@
 @import "variables.css";
 @import "staple.css";
-@import "style-mobile-max-width-768.css";
 @import "style-mobile-max-width-1024.css";
+@import "style-mobile-max-width-768.css";
 /* @import "style-mobile-max-width-640.css"; */
 
 
@@ -16,6 +16,9 @@
   font-size: 20px;
   }
 
+.scroll-wrapper .mobile {
+  display: none;
+}
 
 .topbar {
   z-index: 298;
@@ -121,6 +124,7 @@ justify-content: end;
 .carousel .carousel-item {
 width: 100vw;
 height: 100vh;
+background-color: black;
 overflow-x: hidden;
 overflow-y: hidden;
 transition: 0s;
@@ -138,7 +142,8 @@ object-position: center;
 
 .carousel-index {
 padding-left: 30px;
-color: var(--red);
+color: white;
+z-index: 100;
 }
 
 

@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
 
+   body {
+     background-color: white;
+   }
+
   body .topbar {
       padding-top: 10px;
       width: 100vw;
@@ -24,6 +28,14 @@
     z-index: 300;
     left: var(--marginmobile);
     padding-left: 5px;
+    color: white;
+  }
+
+  #about button {
+    color: white;
+  }
+
+  #about #finishbtn {
     color: white;
   }
 
@@ -54,7 +66,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    height: 50vh;
     object-fit: contain;
     justify-content: center;
     align-items: center;
@@ -64,13 +75,29 @@
     -webkit-perspective: 1000px;
   }
 
+  .carousel-item {
+    width: 100vw;
+    height: 100vw;
+    background-color: black;
+  }
+
   .fixed-text-overlay {
     font-size: 0.8rem;
     line-height: 80%;
-    position: absolute;
-    top: 10;
+    position: relative;
+    padding-top: 5px;
     width: 100vw;
     height: 30vh;
+    background-color: white;
+    color: black;
+  }
+
+  .scroll-wrapper .mobile {
+    display: block;
+  }
+
+  .scroll-wrapper .desktop {
+    display: none;
   }
 
 }
