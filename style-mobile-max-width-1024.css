@@ -31,13 +31,13 @@ body{
 }
 
 body header #about {
-  color: white;
+  color: var(--abouttypecolor1024);
   position: fixed;
+  background-color: var(--maincolor);
   z-index: 300;
   top: 50px;
   left: var(--marginmobile);
   font-size: var(--medtype);
-  color: var(--red);
 }
 
 
@@ -63,11 +63,16 @@ body header #about {
   top: 50px;
   left: var(--margin);
   font-size: var(--medtype);
-  color: var(--red);
-  color: white;
+  color: var(--abouttypecolor1024);
 }
 
+body header #about a {
+  color: var(--abouttypecolor1024);
+}
 
+body header #about #finishbtn {
+  color: var(--abouttypecolor1024);
+}
 
   .topbar button {
     width: 33%;
@@ -81,10 +86,6 @@ body header #about {
     text-decoration: none;
   }
 
-
-  #finishbtn {
-    color: white;
-  }
 
   button:hover {
     text-decoration: underline;
@@ -155,6 +156,7 @@ body header #about {
 
     .carousel-index {
     padding-left: 30px;
+    margin-bottom: 10px;
     }
 
     .portrait img{

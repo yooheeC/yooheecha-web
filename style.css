@@ -43,7 +43,7 @@
   z-index: 300;
   top: 50px;
   left: var(--margin);
-  color: black;
+  color: var(--abouttypecolor1024);
   font-size: 1rem;
   background-color: var(--maincolor);
   padding-left: 5px;
@@ -69,8 +69,8 @@
     color: white
   }
 
-  #aboutbtn, #indexbtn  {
-    color: white
+  #aboutbtn  {
+    color: white;
   }
 
   button:hover {
@@ -99,6 +99,7 @@
   align-items: center;
   scroll-snap-align: start;
   object-fit: contain;
+  background-color: gainsboro;
   position: relative;
 }
 

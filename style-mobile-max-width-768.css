@@ -1,19 +1,18 @@
 @media (max-width: 768px) {
 
    body {
-     background-color: white;
    }
 
   body .topbar {
       padding-top: 10px;
       width: 100vw;
       padding-left: var(--marginmobile);
+      padding-top: var(--marginmobile);
       display: flex;
   }
 
   body .topbar button {
       width: 150px;
-      margin-left: 5px;
       color: white;
   }
 
@@ -26,8 +25,10 @@
     position: fixed;
     z-index: 300;
     left: 0;
-    padding: 30px;
-    color: white;
+    padding-left: var(--marginmobile);
+    padding-right: var(--marginmobile);
+    padding-top:50px;
+    color: var(--abouttypecolor);
     background-color: red;
     width: 100vw;
     height: 100vh;
@@ -35,22 +36,17 @@
   }
 
   #about button {
-    color: black;
+    color: var(--abouttypecolor);
   }
 
   #about #finishbtn {
-    color: black;
+    color: var(--abouttypecolor);
   }
 
   a {
     color: white;
     text-decoration: none;
   }
-
-  #finishbtn {
-    color: white;
-  }
-
 
   .scroll-wrapper {
     display: flex;
@@ -75,6 +71,7 @@
     position: relative;
     backface-visibility: hidden;
     perspective: 1000px;
+    background-color: grey;
     -webkit-perspective: 1000px;
   }
 
@@ -86,15 +83,16 @@
 
   .fixed-text-overlay {
     position: relative;
-    padding-top: 15px;
+    padding: var(--marginmobile);
     width: 100vw;
     color: black;
+    background-color: grey;
   }
 
 
 
   .fixed-text-overlay .carousel-index {
-    margin-bottom: 15px;
+    margin-bottom: var(--marginmobile);
   }
 
   .title {
