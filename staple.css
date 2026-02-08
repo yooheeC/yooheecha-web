@@ -41,11 +41,6 @@ body section .txt{
     cursor:pointer;
 }
 
-#about a,#aboutbtn:hover,#all-btn,a:hover,body section .txt .des a{
-    text-decoration:underline
-}
-
-
 .carousel-control-next-icon,.carousel-control-prev-icon,.show{
     display:none
 }
@@ -77,6 +72,3 @@ body section .txt{
     margin-bottom:0
 }
 
-a {
-    color: black;
-}

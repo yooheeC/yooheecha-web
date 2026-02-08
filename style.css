@@ -1,9 +1,7 @@
-@import "variables.css";
 @import "style-mobile-max-width-1024.css";
 @import "style-mobile-max-width-768.css";
 @import "staple.css";
-/* @import "style-mobile-max-width-640.css"; */
-
+@import "variables.css";
 
 @font-face {
   font-family: univers;
@@ -25,6 +23,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  color: red;
   font-size: 1rem;
   width: 100%;
   z-index: 1000;
@@ -40,18 +39,18 @@
 
   body header #about {
   position: fixed;
-  z-index: 300;
-  top: 50px;
-  left: var(--margin);
+  width: 100vw;
+  height: 100vh;
+  z-index: 500;
+  top: 0px;
+  left: 0px;
+  padding: var(--margin);
   color: var(--abouttypecolor1024);
   font-size: 1rem;
-  background-color: var(--maincolor);
-  padding-left: 5px;
-  position: fixed;
-  z-index: 300;
-  top: 50px;
-  left: var(--margin);
+  background: linear-gradient(to right, #ff0000 50%, #c000ff 50%);
+  padding-top: 50px;
   }
+
 
   a {
     text-decoration: none;
@@ -64,9 +63,10 @@
   margin-left: 5px;
 }
 
+
   #name a {
     padding: 0;
-    color: white
+    color: white;
   }
 
   #aboutbtn  {
@@ -110,7 +110,7 @@
   position: absolute;
   bottom: 0;
   font-size: 0.9rem;
-  z-index: 1000;
+  z-index: 100;
   color: white;
 
 }

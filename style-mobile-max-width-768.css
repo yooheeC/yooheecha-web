@@ -1,8 +1,5 @@
 @media (max-width: 768px) {
 
-   body {
-   }
-
   body .topbar {
       padding-top: 10px;
       width: 100vw;
@@ -29,27 +26,15 @@
     padding-right: var(--marginmobile);
     padding-top:50px;
     color: var(--mobileabouttypecolor);
-    background-color: red;
+    background: linear-gradient(to right, #ff0000 50%, #c000ff 50%);
     width: 100vw;
     height: 100vh;
     top: 0;
   }
 
-  #about button {
-    color: var(--mobileabouttypecolor);
-  }
-
-  #about #finishbtn {
-    color: var(--mobileabouttypecolor);
-  }
-
-  a {
-    color: var(--mobileabouttypecolor);
-    text-decoration: none;
-  }
-
   #about a {
     color: var(--mobileabouttypecolor);
+    text-decoration: none;
   }
 
   #about #finishbtn {
@@ -110,5 +95,12 @@
   .scroll-wrapper .desktop {
     display: none;
   }
+
+  #name a {
+    padding: 0;
+    color: white;
+    text-decoration: none;
+  }
+
 
 }

@@ -31,13 +31,17 @@ body{
 }
 
 body header #about {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 500;
+  top: 0px;
+  left: 0px;
+  padding: var(--margin);
   color: var(--abouttypecolor1024);
-  position: fixed;
-  background-color: var(--maincolor);
-  z-index: 300;
-  top: 50px;
-  left: var(--marginmobile);
-  font-size: var(--medtype);
+  font-size: 1rem;
+  background: linear-gradient(to right, #ff0000 50%, #c000ff 50%);
+  }
 }
 
 
@@ -57,14 +61,6 @@ body header #about {
 }
 
 
-body header #about {
-  position: fixed;
-  z-index: 300;
-  top: 50px;
-  left: var(--margin);
-  font-size: var(--medtype);
-  color: var(--abouttypecolor1024);
-}
 
 body header #about a {
   color: var(--abouttypecolor1024);
@@ -85,11 +81,6 @@ body header #about #finishbtn {
     color: white;
     text-decoration: none;
   }
-
-  a {
-    color: var(--mobileabouttypecolor);
-  }
-
 
   button:hover {
     text-decoration: underline;
@@ -113,7 +104,7 @@ body header #about #finishbtn {
     padding-right: 30px;
     position: absolute;
     bottom: 0;
-    z-index: 1000;
+    z-index: 40;
     color: white;
   
   }
@@ -199,4 +190,4 @@ body header #about #finishbtn {
     .show {
       display: none;
     }
-  }
+  

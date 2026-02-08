@@ -1,19 +1,20 @@
 const aboutbtn = document.getElementById("aboutbtn");
 const about = document.getElementById("about");
 const finishbtn = document.getElementById("finishbtn");
-const aboutbg = document.getElementById("aboutbg");
-const name = document.getElementById("name");
+const nameLink = document.querySelector('.topbar button a');
 
 function showabt() {
   about.classList.toggle("show");
-  aboutbg.classList.toggle("show");
   aboutbtn.style.textDecoration = "underline";
+  aboutbtn.style.color = "black";
+  nameLink.style.color = "black";
 }
 
 function finishabt() {
   about.classList.add("show");
-  aboutbg.classList.toggle("show");
   aboutbtn.style.textDecoration = "none";
+  aboutbtn.style.color = "white";
+  nameLink.style.color = "white";
 }
 
 aboutbtn.addEventListener("click", showabt);
