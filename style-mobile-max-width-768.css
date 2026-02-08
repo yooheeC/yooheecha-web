@@ -34,7 +34,7 @@
 
   #about a {
     color: var(--mobileabouttypecolor);
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   #about #finishbtn {
