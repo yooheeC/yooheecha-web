@@ -28,7 +28,7 @@
     padding-left: var(--marginmobile);
     padding-right: var(--marginmobile);
     padding-top:50px;
-    color: var(--abouttypecolor);
+    color: var(--mobileabouttypecolor);
     background-color: red;
     width: 100vw;
     height: 100vh;
@@ -36,18 +36,25 @@
   }
 
   #about button {
-    color: var(--abouttypecolor);
+    color: var(--mobileabouttypecolor);
   }
 
   #about #finishbtn {
-    color: var(--abouttypecolor);
+    color: var(--mobileabouttypecolor);
   }
 
   a {
-    color: white;
+    color: var(--mobileabouttypecolor);
     text-decoration: none;
   }
 
+  #about a {
+    color: var(--mobileabouttypecolor);
+  }
+
+  #about #finishbtn {
+    color: var(--mobileabouttypecolor);
+  }
   .scroll-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +78,7 @@
     position: relative;
     backface-visibility: hidden;
     perspective: 1000px;
-    background-color: grey;
+    background-color: #E5E4E2;
     -webkit-perspective: 1000px;
   }
 
@@ -86,10 +93,7 @@
     padding: var(--marginmobile);
     width: 100vw;
     color: black;
-    background-color: grey;
   }
-
-
 
   .fixed-text-overlay .carousel-index {
     margin-bottom: var(--marginmobile);

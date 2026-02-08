@@ -1,7 +1,7 @@
 @import "variables.css";
-@import "staple.css";
 @import "style-mobile-max-width-1024.css";
 @import "style-mobile-max-width-768.css";
+@import "staple.css";
 /* @import "style-mobile-max-width-640.css"; */
 
 
@@ -113,6 +113,12 @@
   z-index: 1000;
   color: white;
 
+}
+
+#about #finishbtn{
+  padding:0;
+  width:0;
+  color: black;
 }
 
 .carousel {

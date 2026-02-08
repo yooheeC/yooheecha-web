@@ -45,9 +45,7 @@ body section .txt{
     text-decoration:underline
 }
 
-a{
-    color:#000
-}
+
 .carousel-control-next-icon,.carousel-control-prev-icon,.show{
     display:none
 }
@@ -56,11 +54,7 @@ a{
     height:0;
 }
 
-#about #finishbtn{
-    padding:0;
-    width:0;
-    color: black;
-}
+
 .carousel-control-next:hover{
     cursor:e-resize
 }
@@ -82,17 +76,7 @@ a{
 .carousel-item .landscape{
     margin-bottom:0
 }
-.popup .closebtn{
-    top:0;
-    right:0;
-    font-size:1rem
+
+a {
+    color: black;
 }
-.popup .nextbtn,.popup .prevbtn{
-    position:fixed;
-    z-index:300;
-    top:50px;
-}
-.popup .nextbtn{
-    right:0
-}
- 

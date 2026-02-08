@@ -86,6 +86,10 @@ body header #about #finishbtn {
     text-decoration: none;
   }
 
+  a {
+    color: var(--mobileabouttypecolor);
+  }
+
 
   button:hover {
     text-decoration: underline;
