@@ -146,21 +146,19 @@ justify-content: center;
 }
 
 .custom-gif {
-  width: 30%;            /* 이미지 3개가 가로를 약 90% 차지 */
-  height: auto;          /* 비율 유지 */
-  max-height: 80%;       /* 세로가 너무 커지는 것 방지 */
+  width: 30%;          
+  height: auto;          
+  max-height: 80%; 
   object-fit: contain;
 }
 
 .custom-gif-50 {
-  height: 60% !important;
-  height: auto;           /* 비율 유지 */
-  object-fit: contain;    /* 이미지가 잘리지 않게 보호 */
+  height: auto;  
+  object-fit: contain; 
 }
 
-/* 3. 슬라이드 내부 정렬 (부트스트랩 클래스 d-flex로 부족할 경우 대비) */
 .carousel-item > div {
-  gap: 20px;             /* 이미지 사이의 미세한 간격 직접 조절 */
+  gap: 20px;           
 }
 
 .carousel-item .landscape {
