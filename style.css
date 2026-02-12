@@ -145,16 +145,23 @@ align-items: center;
 justify-content: center;
 }
 
-.custom-gif {
-  width: 30%;          
-  height: auto;          
-  max-height: 80%; 
-  object-fit: contain;
+.ratio-container {
+  width: 100vw;            /* 가로는 항상 꽉 차게 */
+  aspect-ratio: 16 / 9;    /* 가로 대비 세로 비율 고정 */
+  max-height: 100vh;       /* 화면 높이를 넘지 않도록 제한 */
+  padding: 0 5%;           /* 좌우 여백 */
+  box-sizing: border-box;
 }
 
-.custom-gif-50 {
-  height: auto;  
-  object-fit: contain; 
+.responsive-gif {
+  /* 3개의 이미지가 있으므로 최대 너비를 약 30%로 제한 */
+  max-width: 30%; 
+  /* 컨테이너(16:9 영역) 높이의 100%를 넘지 않음 */
+  max-height: 100%; 
+  /* 이미지 원본 비율 유지 */
+  height: auto; 
+  width: auto;
+  object-fit: contain;
 }
 
 .carousel-item > div {

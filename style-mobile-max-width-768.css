@@ -72,7 +72,7 @@
     height: 100vw;
     background-color: black;
   }
-  
+
   .square-container {
     width: 100vw;
     height: 100vw; 
@@ -92,6 +92,7 @@
     position: relative;
     padding: var(--marginmobile);
     width: 100vw;
+    z-index: 100;
     color: black;
   }
 

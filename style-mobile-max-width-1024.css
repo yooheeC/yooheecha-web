@@ -9,6 +9,8 @@ body{
 }
 
 .carousel-item {
+  width: 100vw;
+  height: 100vw;
   backface-visibility: hidden;
   perspective: 1000px;
   -webkit-perspective: 1000px;
@@ -104,7 +106,7 @@ body header #about #finishbtn {
     padding-right: 30px;
     position: absolute;
     bottom: 0;
-    z-index: 40;
+    z-index: 100;
     color: white;
   
   }
@@ -127,7 +129,6 @@ body header #about #finishbtn {
 
     .carousel-item .landscape {
     width: 100vw;
-    height: 100%;
     display: flex;
     margin-bottom: 0;
     align-items: center;
@@ -149,7 +150,25 @@ body header #about #finishbtn {
       width: auto; 
       display: block;
     }
-  
+
+
+/* 2. 16:9 비율을 유지하는 컨테이너 */
+.ratio-container {
+  width: 100vw;     
+  aspect-ratio: 16 / 9;  
+  max-height: 100vh;    
+  padding: 0 5%;    
+  box-sizing: border-box;
+}
+
+/* 3. 내부 이미지 반응형 조절 */
+.responsive-gif {
+  max-width: 30%; 
+  max-height: 100%; 
+  height: auto; 
+  width: auto;
+  object-fit: contain;
+}
 
     .carousel-index {
     padding-left: 30px;
