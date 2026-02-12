@@ -72,6 +72,21 @@
     height: 100vw;
     background-color: black;
   }
+  
+  .square-container {
+    width: 100vw;
+    height: 100vw; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .fit-gif {
+    height: 100%; 
+    width: auto; 
+    display: block;
+  }
 
   .fixed-text-overlay {
     position: relative;
