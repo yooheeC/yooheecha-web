@@ -125,6 +125,7 @@ body header #about #finishbtn {
     overflow-y: hidden;
     display: flex;
     justify-content: center;
+    object-position: center;
     } 
 
     .carousel-item .landscape {
@@ -151,6 +152,10 @@ body header #about #finishbtn {
       display: block;
     }
 
+    .half {
+      width: 50%;
+    }
+
 
 /* 2. 16:9 비율을 유지하는 컨테이너 */
 .ratio-container {
@@ -161,7 +166,12 @@ body header #about #finishbtn {
   box-sizing: border-box;
 }
 
-/* 3. 내부 이미지 반응형 조절 */
+.ratio-container .half {
+  height: 50%; 
+  width: auto;
+}
+
+
 .responsive-gif {
   max-width: 30%; 
   max-height: 100%; 
