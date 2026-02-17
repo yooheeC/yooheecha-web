@@ -154,11 +154,8 @@ justify-content: center;
 }
 
 .responsive-gif {
-  /* 3개의 이미지가 있으므로 최대 너비를 약 30%로 제한 */
-  max-width: 30%; 
-  /* 컨테이너(16:9 영역) 높이의 100%를 넘지 않음 */
+  max-width: 22%; 
   max-height: 100%; 
-  /* 이미지 원본 비율 유지 */
   height: auto; 
   width: auto;
   object-fit: contain;
